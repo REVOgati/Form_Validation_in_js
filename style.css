@@ -13,17 +13,6 @@
     justify-content: center;
 }
 
-.useful-links{
-    position: absolute;
-    top: 5%;
-    right: 5%;
-
-}
-.useful-links a{
-    display: block;
-    color: #fff;
-    text-decoration: none;
-}
 
 .container form{
     width: 90%;
@@ -80,4 +69,16 @@ form button{
     cursor: pointer;
     display: block;
     margin: 30px auto 10px;
+}
+
+.input-group span{
+    position: absolute;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red;
+}
+
+#submit-error{
+   color: red; 
 }
