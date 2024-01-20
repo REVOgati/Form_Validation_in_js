@@ -15,6 +15,6 @@ function validationName(){
         nameError.innerHTML = 'Write full Name';
         return false;
     }
-    nameError.innerHTML = 'valid';
+    nameError.innerHTML = <i class="fa-solid fa-circle-check"></i>;
     return true;
 }
